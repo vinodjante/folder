@@ -1,0 +1,7 @@
+.bullet {
+    padding: 30px 20px 0 120px;
+    min-height: 160px;
+    border-bottom: 1px dashed #ccc;
+    border-right: 1px dashed #ccc;
+    margin-bottom: 0;
+}

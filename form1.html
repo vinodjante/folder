@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		forms
+	</title>
+	<style type="text/css">
+		form{
+			width:180px;
+			background-color: lightblue;
+			padding: 10px;
+			border-radius: 10px;
+		}
+		input:enabled
+		{
+			background-color: yellow;
+		}
+		input:disabled
+		{
+			background-color: red;
+		}
+
+
+	</style>
+</head>
+<body><center>
+	<form form name="login"  method="post">
+		<span>EMAIL ID:</span>
+		<input type="text" name="txtEMAILID" value="" placeholder="UserID" disabled/>
+		<br/><br/>
+		<span>PASSWORD:</span>
+		<input type="password" name="txtPWD" value="" placeholder="Pass" autofocus/>
+		<br/><br/>
+		<input type="radio" name="Gender" value="MALE" checked/>MALE
+		<input type="radio" name="Gender" value="FEMALE"/>FAMLE
+		<br/><br/>
+		<input type="SUBMIT"  value="SUBMIT"/>
+		<input type="RESET" value="RESET"/>
+	</form>
+</center>
+
+</body>
+</html>
